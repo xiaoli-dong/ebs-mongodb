@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'account',
     'study',
 
+    #
+    'djongo',
+
     # django apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -84,12 +87,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'ebsdb',
     }
 }
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
-
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 

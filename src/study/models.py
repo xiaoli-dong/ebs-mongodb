@@ -204,3 +204,5 @@ class Seq(models.Model):
         auto_now_add=True, verbose_name="date created")
     date_updated = models.DateTimeField(
         auto_now=True, verbose_name="date updated")
+
+

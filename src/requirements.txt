@@ -1,1 +1,4 @@
 django
+djongo
+
+#pip install --upgrade djongo

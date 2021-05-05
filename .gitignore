@@ -1,4 +1,6 @@
 .vscode
+src/*/__pycache__
+src/*/migrations
 sradb*
 src/.vscode
 src/.venv
