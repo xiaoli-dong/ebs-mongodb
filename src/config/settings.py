@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'home',
     'account',
     'study',
+    'seq',
 
     #
     'djongo',

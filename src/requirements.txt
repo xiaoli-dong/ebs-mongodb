@@ -1,4 +1,9 @@
-django
-djongo
-
-#pip install --upgrade djongo
+bson==0.5.8
+dataclasses==0.6
+Django==2.2.22
+djongo==1.3.1
+pymongo==3.11.4
+python-dateutil==2.8.1
+pytz==2021.1
+six==1.16.0
+sqlparse==0.2.4
